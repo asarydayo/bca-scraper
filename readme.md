@@ -1,3 +1,5 @@
+Configure the .env accordingly.
+
 # Dev
 
 For development
@@ -22,5 +24,4 @@ For Production purposes
 
 Tests will always drop and recreate test database for testing
 
-1. `sequelize db:create --env=TEST`
-2. `sequelize db:migrate --env=TEST`
+1. `yarn test`
