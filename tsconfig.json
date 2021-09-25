@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "src",
+    "strict": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "src",
+    "paths": {
+      "config/*": ["./config/*"],
+      "common/*": ["./common/*"],
+      "database/*": ["./database/*"],
+      "modules/*": ["./modules/*"],
+      "routes/*": ["./routes/*"],
+      "server": ["./server"],
+      "database": ["./database"]
+    }
+  },
+  "exclude": ["dist/**/*.*"]
+}
